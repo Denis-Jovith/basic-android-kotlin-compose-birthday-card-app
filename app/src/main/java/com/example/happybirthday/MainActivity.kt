@@ -85,6 +85,8 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
     }
 }
 
+// Meant for previewing offline without excutint the application
+
 @Composable
 fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) {
     // Create a box to overlap image and texts
